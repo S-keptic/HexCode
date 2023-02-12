@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@500&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
+        background-color: #1E1E1E;
+    color: aliceblue;
+}
+
+
+.container{
+
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hex-colours{
+    text-align: center;
+    animation: changeColors 5s infinite alternate;
+}
+
+@keyframes changeColors {
+    0% {
+        color: cyan;
+    }
+
+    20% {
+        color: lightcoral;
+    }
+
+    40% {
+        color: lightgreen;
+    }
+
+    60% {
+        color: white;
+    }
+
+
+    80% {
+        color: purple;
+    }
+    100% {
+        color: lightsalmon;
+    }
+
+
+}
+
