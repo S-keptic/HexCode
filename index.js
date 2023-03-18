@@ -13,4 +13,4 @@ btn.onclick = ()=> {
 
   document.getElementById("hex-code").innerHTML = hexcode;
   document.body.style.backgroundColor = '#' + hexcode;
-}}
+}}  
